@@ -16,6 +16,7 @@ Source:         http://www.cpan.org/modules/by-module/XML/%{module}-%{version}.t
 BuildRequires:  perl(Module::Build)
 BuildRequires:  perl(XML::XPath)
 BuildRequires:  perl(XML::LibXML)
+BuildRequires:  perl(Readonly)
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 
