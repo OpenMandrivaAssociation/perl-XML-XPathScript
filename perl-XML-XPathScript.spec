@@ -48,4 +48,4 @@ rm -rf %{buildroot}
 %doc README Changes script
 %{_mandir}/*/*
 %{perl_vendorlib}/XML
-
+%{_bindir}/xpathscript
