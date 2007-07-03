@@ -1,6 +1,6 @@
 %define module  XML-XPathScript
 %define name    perl-%{module}
-%define version 1.49
+%define version 1.50
 %define release %mkrel 1
 
 %define _requires_exceptions perl(Apache)\\|perl(Apache::AxKit::Cache)\\|perl(Apache::AxKit::CharsetConv)\\|perl(Apache::AxKit::Exception)\\|perl(Apache::AxKit::Language)\\|perl(Apache::AxKit::Provider)\\|perl(Apache::File)
