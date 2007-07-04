@@ -17,6 +17,7 @@ BuildRequires:  perl(Module::Build)
 BuildRequires:  perl(XML::XPath)
 BuildRequires:  perl(XML::LibXML)
 BuildRequires:  perl(Readonly)
+BuildRequires:  perl(Clone)
 BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}
 
