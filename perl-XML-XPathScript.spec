@@ -1,15 +1,13 @@
 %define upstream_name    XML-XPathScript
-%define upstream_version 1.54
-
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:    4
+Version:    1.54
+Release:    5
 
 Summary:    A Perl framework for XML stylesheets
 License:    Artistic
 Group:      Development/Perl
-Url:        https://search.cpan.org/dist/%{upstream_name}/
-Source0:    http://www.cpan.org/modules/by-module/XML/%{upstream_name}-%{upstream_version}.tar.bz2
+Url:        https://metacpan.org/dist/%{upstream_name}/
+Source0:    http://www.cpan.org/modules/by-module/XML/%{upstream_name}-%{version}.tar.bz2
 
 BuildRequires:  perl(Module::Build)
 BuildRequires:  perl(XML::XPath)
@@ -24,7 +22,7 @@ and some from XSLT. This makes for a very flexible option for transforming
 XML to HTML or text or just about any other format.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 %{__perl} Build.PL installdirs=vendor
